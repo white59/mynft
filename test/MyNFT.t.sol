@@ -61,7 +61,7 @@ contract MyNFTTest is Test {
     }
 
     /**
-     * 测试销毁NFT
+     * 测试销毁NFT 测试用例
      */
     function test_burnSuccess() public {
         uint256 tokenId = myNFT.mint("TT", "my first NFT");
